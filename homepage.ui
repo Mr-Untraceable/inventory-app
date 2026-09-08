@@ -455,9 +455,6 @@ background-color: rgb(191, 191, 255);
         <height>28</height>
        </size>
       </property>
-      <property name="mouseTracking">
-       <bool>true</bool>
-      </property>
       <property name="styleSheet">
        <string notr="true">QPushButton {
 	width: 150%;
@@ -479,7 +476,7 @@ QPushButton:pressed {
 </string>
       </property>
       <property name="text">
-       <string>Data training</string>
+       <string>data training</string>
       </property>
      </widget>
     </item>
@@ -826,7 +823,7 @@ QPushButton:pressed {
   <tabstop>logoutButton</tabstop>
  </tabstops>
  <resources>
-  <include location="../toolbar.qrc"/>
+  <include location="rec.qrc"/>
  </resources>
  <connections/>
 </ui>
